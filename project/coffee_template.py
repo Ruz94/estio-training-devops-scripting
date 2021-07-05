@@ -1,9 +1,9 @@
-from tools import Clear
+# from tools import Clear
 
 coffeeTypes = ("Americano", "Latte", "Cappucino", "Mocha", "Flat White")
 sizes = ("Small", "Regular", "Large")
 
-Clear()
+# Clear()
 
 exitapp = False
 
@@ -27,5 +27,5 @@ while exitapp == False:
         print("You selected a", sizes[sizeChoice - 1],
               coffeeTypes[coffeeChoice - 1])
     except:
-        Clear()
+        # Clear()
         print("Sorry, did not understand your selection, try again.")
